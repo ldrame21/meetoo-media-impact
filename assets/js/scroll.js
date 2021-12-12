@@ -90,7 +90,7 @@
   // create the list of nav items with a ul
   var linkList = document.createElement("ul");
   var hrLine = document.createElement("hr");
-  var linkText = ["WHY ALGEBRA I", "WHO HAS ACCESS & WHERE", "WHO ENROLLS & WHERE"];
+  var linkText = ["TEST1", "TEST2", "TEST3"];
 
   linkList.appendChild(hrLine);
 
@@ -196,14 +196,14 @@
 
           // might improve on this to make it more scalable
           switch (i) {
-            case "WHOHASACCESSWHERE":
-              hrLine.setAttribute('class', 'onWHOHASACCESSWHERE')
+            case "TEST2":
+              hrLine.setAttribute('class', 'onTEST2')
               break;
-            case "WHOENROLLSWHERE":
-              hrLine.setAttribute('class', 'onWHOENROLLSWHERE');
+            case "TEST3":
+              hrLine.setAttribute('class', 'onTEST3');
               break;
             default:
-              hrLine.setAttribute('class', 'onWHYALGEBRAI');
+              hrLine.setAttribute('class', 'onTEST1');
           }
         }
       }
