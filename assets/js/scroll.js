@@ -90,7 +90,7 @@
   // create the list of nav items with a ul
   var linkList = document.createElement("ul");
   var hrLine = document.createElement("hr");
-  var linkText = ["TEST1", "TEST2", "TEST3"];
+  var linkText = ["Back to Top", "", ""];
 
   linkList.appendChild(hrLine);
 
@@ -203,7 +203,7 @@
               hrLine.setAttribute('class', 'onTEST3');
               break;
             default:
-              hrLine.setAttribute('class', 'onTEST1');
+              hrLine.setAttribute('class', 'onBackToStart');
           }
         }
       }

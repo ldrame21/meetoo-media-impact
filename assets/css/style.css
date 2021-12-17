@@ -50,7 +50,7 @@ blockquote a {
   cursor: pointer;
 }
 
-TEST1{
+BackToTop{
     color:aqua
 }
 
@@ -396,7 +396,7 @@ ul hr {
 }
 
 @media (max-width:53.125em) {
-  .onTEST1 {
+  .onTop {
     margin-left: 5.4%;
   }
 
@@ -769,7 +769,7 @@ section.intro .screen .screen-holder {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   section.intro .screen .screen-holder {
-    /*background-image: url("../img/hero-1_2x.jpg");*/
+    /* background-image: url("../img/hero-1_2x.jpg"); */
   }
 }
 
@@ -798,7 +798,7 @@ section.title-card {
 
 section.title-card p {
   margin-bottom: 0;
-  font-size:   font-size: 1.063em;
+  font-size: 1.063em;
 }
 
 @media (max-width:1050px) {
@@ -816,9 +816,9 @@ section.title-card p {
 section.title-card .wrap {
   display: block;
   position: relative;
-  height: calc(100vh);
-  max-height: 900px;
-  background-image: url("../img/student-hero.jpg");
+  height: calc(90vh);
+  max-height: 9000px;
+  /* background-image: url("../img/student-hero.jpg"); */
   background-size: cover;
   background-position: auto;
 }
