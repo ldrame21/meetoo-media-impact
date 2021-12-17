@@ -159,30 +159,11 @@ div.type_tooltip {
 /* parent container ID: map1 */
 /* --- */
 
-/*Set up hover over characteristics */
-div.map1_tooltip {
-    position: absolute;
-    text-align: left;
-    width: 400px;
-    height: 130px;
-    padding: 2px;
-    margin-left: 20px;
-    font: 14px sans-serif;
-    line-height: 1.2;
-    padding: 12px;
-    background-color: #2E2E2E;
-    color: #CDCCCC;
-    border: 0px;
-    border-radius: 2px;
-    pointer-events: none;
-    opacity: .9;
-    z-index: 100;
-}
 
 #map1 p.title {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 20px;
     color: white;
     text-align: center;
@@ -190,152 +171,6 @@ div.map1_tooltip {
     margin-bottom: 10px;
     letter-spacing: normal;
 }
-
-#map1 .wrapper {
-    padding-bottom: 0px;
-    margin: 52px auto;
-    margin-bottom:
-}
-
-#map1 input[type=radio] {
-    cursor: pointer;
-    height: 10px;
-    width: 50px;
-}
-
-#map1 ul {
-    width: 50%;
-    margin: auto;
-}
-
-#map1 .legendItem {
-    list-style-type: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    padding-top: 10px;
-}
-
-#map1 .legendItem li {
-    float: left;
-    width: 50px;
-    height: 10px;
-    position: relative;
-    margin-left: 2px;
-}
-
-#map1 .legendItem label,
-#map1 .legendItem input {
-    white-space: nowrap;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    vertical-align: bottom;
-
-}
-
-#map1 .legendItem input[type="radio"] {
-    opacity: 0.011;
-    z-index: 100;
-    display: block;
-    margin: 0 auto;
-}
-
-/*Set up special behavior for legend items when one item is selected*/
-#map1 .legendItem input[class*="hasSelector"]+label {
-    opacity: .1;
-}
-
-#map1 .legendItem input[class*="highlightButton"]+label {
-    opacity: 1;
-}
-
-#map1 .legendItem label {
-    padding-top: 1px;
-    color: white
-}
-
-#map1 .legendButton input[class*="legendButton"]:hover {
-    border: 1px solid #CCC;
-}
-
-#map1 .legendButton{
-    cursor: pointer;
-}
-
-#map1 .legendButton.hasSelector.highlightButton{
-
-    opacity: 1;
-}
-
-#map1 .legendButton.hasSelector{
-    opacity: .1;
-}
-
-#map1 .legendButtonText{
-    opacity: 1;
-}
-
-
-#map1 .legendButtonText.hasSelector{
-    opacity: .1;
-}
-#map1 .legendButtonText.highlightButton{
-    opacity: 1;
-}
-
-
-/*Set up the triangle that is used to indicate which legend item is selected */
-#map1 .triangle {
-   display: none;
-}
-
-#map1 .triangle.highlightButton {
-    display: inline-block;
-}
-
-#map1 .background {
-    fill: none;
-    pointer-events: all;
-}
-
-#map1 #states {
-    fill: none;
-}
-
-#map1 .zoomButton {
-    cursor: pointer;
-}
-
-
-#map1 #states .active {
-    fill: none;
-}
-
-#map1 #state-borders {
-    fill: none;
-    color: none;
-    stroke: #22222a;
-    stroke-width: 1.5px;
-}
-
-@media screen and (min-width: 100.000em) {
-  #map1 #state-borders {
-  stroke-width: 2px;
-  }
-}
-
-#map1 label {
-    width: 50px;
-    height: 10px;
-}
-
-#map1 svg {
-    overflow: hidden;
-}
-
-
 
 /* --- */
 /* Ethnicity/Gender Bar Chart Style */

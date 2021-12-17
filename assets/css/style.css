@@ -827,7 +827,7 @@ section.title-card .wrap {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   section.title-card .wrap {
-    background-image: url("../img/background_ada.png");"
+    background-image: url("../img/background_ada.png");
   }
 
 }
